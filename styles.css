@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #222;
+    color: white;
+}
+
+.main-container{
+    padding: 50px 20px;
+}
+
+.sw-main{
+    width: 40%;
+    margin:10px auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(50, 8, 128);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.sw-name {
+    user-select: none;
+    margin: auto;
+    text-align: center;
+    padding: 5px 10px;
+    font-family: Arial;
+    font-size: small;
+}
+
+.sw-display{
+    user-select: none;
+    margin: 5px 25px;
+    padding: 10px 10px;
+    background-color: rgba(0, 0, 0, 0.507);
+    font-size: 75px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    box-shadow: rgb(17, 1, 46) 3px 3px 6px 0px inset, rgba(10, 1, 32, 0.5) -3px -3px 6px 1px inset;
+}
+.sw-display div{
+    position: relative;
+}
+
+.sw-btn-list{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10px 20px;
+}
+
+.sw-btn-list div{
+    padding: 7px 18px;
+    border-radius: 5px;
+    color: aliceblue;
+    cursor: pointer;
+    user-select: none;
+    font-size: large;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgba(128, 128, 128, 0.651);
+}
+
+.sw-btn-list div:active{
+    transform: scale(0.91);
+}
+
+.sw-btn-list div:hover{
+    background-color: #111;
+    transition: all 0.5s;
+}
+
+.hide{
+    display: none;
+}
+
+nav{
+    position: absolute;
+    font-size: x-small;
+    color: rgba(255, 255, 255, 0.39);
+    bottom: 0;
+    right: 0;
+}
